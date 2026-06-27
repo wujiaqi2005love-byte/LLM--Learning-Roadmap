@@ -1,0 +1,83 @@
+# ==================== Python ====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+jupyter.log
+
+# ==================== Models & Data ====================
+models/
+checkpoints/
+output/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+!*.gitkeep
+
+# Training artifacts
+runs/
+wandb/
+logs/
+*.log
+lightning_logs/
+
+# Datasets (large files)
+data/
+datasets/
+*.parquet
+*.arrow
+
+# ==================== IDE ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ==================== Docker ====================
+docker-compose.override.yml
+
+# ==================== Environment ====================
+.env
+.env.local
+.env.*.local
+*.env
+
+# API Keys & Secrets
+secrets/
+credentials/
+*.key
+*.pem
+
+# ==================== OS ====================
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+~$*
+
+# ==================== Misc ====================
+.claude/
+*.backup
+*.bak
+dump/
